@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-01-16 17:04\n"
+"PO-Revision-Date: 2023-01-19 05:05\n"
 "Last-Translator: \n"
 "Language: ru_RU\n"
 "Language-Team: Russian\n"
@@ -1585,6 +1585,7 @@ msgstr "Выберите пару"
 
 #: src/components/CurrencyInputPanel/index.tsx
 #: src/components/SearchModal/CurrencySearch.tsx
+#: src/nft/components/bag/tokenSelector/BagTokenSelectorModal.tsx
 #: src/pages/PoolFinder/index.tsx
 #: src/pages/PoolFinder/index.tsx
 #: src/state/swap/hooks.tsx
@@ -2089,8 +2090,9 @@ msgid "Uniswap migration contract↗"
 msgstr "Контракт переноса Uniswap ↗"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Неизвестная ошибка{0}. Попробуйте увеличить допустимое проскальзывание. Обратите внимание: токены с комиссией за перевод или изменяемой базой несовместимы с Uniswap V3."
+msgid "Unknown error{0}. Try increasing your slippage tolerance.\n"
+"Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
+msgstr ""
 
 #: src/pages/Vote/Landing.tsx
 #: src/pages/Vote/VotePage.tsx
